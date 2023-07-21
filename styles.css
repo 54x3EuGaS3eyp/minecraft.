@@ -1,0 +1,299 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+
+ html{
+  margin-bottom: 0%;
+} 
+ 
+body{
+  padding: .5rem
+  ;
+}
+
+
+h1 {
+  text-align: center;
+  font-family: serif;
+  font-size: 2rem;
+  margin: 30px;
+  padding-bottom: 30px;
+  padding-top: 30px;
+  margin-top: 0%;
+  vertical-align: middle;
+  color: black;
+}
+body {
+  font-family: 'Nunito', sans-serif;
+  font-size: 2rem;
+  margin: 0px;
+  padding: 0%;
+  width: 100%;
+}
+
+
+
+
+.title {
+  background-color: #3cb02c;
+  background-image: url(img/creeper-face.png);
+  background-size:13%;
+  background-repeat: no-repeat;
+  background-position: bottom left;
+  height: 150px;
+  width: 100%;
+  margin-top: 0%;
+  margin-bottom: 0%;
+  padding-bottom: 0%;
+}
+p {
+  padding-left: .5rem;
+  font-size: 22px;
+}
+
+/* start nav */
+
+.members {
+  padding-left: 6%;
+}
+
+ul {
+  padding-left: 12%;
+}
+
+li p {
+  font-size: 20px;
+  padding-left: 1px;
+}
+
+a {
+  color: #3cb02c;
+  list-style: none;
+  text-decoration: none;
+}
+a:hover {
+  color: #3cb02c;
+  text-decoration: underline;
+}
+
+::marker{
+  color: #000;
+}
+
+.fotmer-a {
+  color: #3cb02c;
+}
+
+ul p {
+  color: #3cb02c;
+}
+
+/* end  nav */
+
+
+.overview {
+  padding-left: 1rem;
+  padding-right: 1rem;
+  margin-top: 0%;
+  padding-top: 0%;
+  background-color: #141514;
+  padding-top: 30px;
+  padding-bottom: 50px;
+}
+.second_ul {
+  margin-bottom: 100px;
+}
+
+.fansy-serif p{
+  padding: .5rem;
+}
+
+.fansy-serif {
+  padding-bottom: 10px;
+  font-family: serif;
+  font-weight: 600;
+}
+.h2one {
+  text-align: center;
+  padding-bottom: 2rem;
+font-size: 2.5rem;
+}
+header {
+  color:white;
+}
+.us p {
+  padding-left: 30px;
+  padding-right: 30px;
+  font-size: 24px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.bored {
+  text-indent: 50px;
+  font-style: oblique;
+  font-weight: bold;
+  line-height: 1.4;
+  margin: 1rem;
+}
+.Get_To_Know_Us {
+  padding-left: 1rem;
+  font-size: 2.5rem;
+}
+a:active {
+  color: #3cb02c;
+  text-decoration: underline;
+}
+a:visited {
+  color: #3cb02c;
+  text-decoration: underline;
+}
+
+.outside {
+  background-color: #edeff8;
+  min-height: 500px;
+}
+
+.content, .name  {
+background-color: #f7f8fc;
+  width: 85%;
+  padding-left:.5rem; 
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.status-line {
+  padding-bottom: 30px;
+}
+
+
+.content p, .name p {
+  font-size: 1.25rem;
+  padding-left:.5rem;
+  line-height:1.6;
+}
+ 
+.nowrap {
+  white-space: nowrap;
+}
+
+.in-game-name, .status{
+  font-style: italic;
+  color: green;
+}
+
+.player-name {
+  padding-left: 2rem;
+  font-size: 2rem;
+}
+
+.letdegree, .ziyad-img, .ahmed-img {
+  width: 25%;
+  height: auto;
+  display: block;
+  float: right;
+  min-width: 100px;
+  max-width: 150px;
+  border: 2px solid #bcbec7 ;
+  margin-left: 5px;
+}
+
+.content {
+  min-height: 233px;
+}
+
+.content.ali {
+  margin-bottom: 3rem;
+}
+
+/* end members */
+/* start constructions */
+
+#cons-h2 {
+  font-size: 2rem;
+  text-align: center;
+}
+
+ .big-map {
+  display: block;
+  width: 80%;
+  height: auto;
+  margin: auto;
+  max-width: 530px;
+  border-radius: 30px;
+} 
+
+.small-map {
+  width: 70%;
+  height: auto;
+  max-width: 530px;
+  display: block;
+  margin: auto;
+  border-radius: 30px;
+}
+
+.zoom-in {
+  text-align: center;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.houses {
+  width: 85%;
+  height: auto;
+  display: block;
+  margin: auto;
+}
+.credit {
+  color: forestgreen;
+}
+.credit-line{
+  font-size: 1rem;
+  font-style: italic;
+}
+.constructions {
+  background-color: #edeff8;
+}
+
+.constructions p{
+  padding-left: 7%;
+  padding-right:7%;}
+
+.cons-names{
+  padding-left: .5rem;
+  font-size: 2rem;
+}
+
+.stable-img {
+  width: 50%;
+  height: auto;
+}
+
+.final {
+  min-height: 300px; 
+  background-color: #141514;
+}
+.group-image {
+  width: 100%;
+  height: auto;
+  border-radius: 50%;
+  display: block;
+  outline: 3px solid #fff;
+  min-width: 140px;
+}
+
+.figure-group {
+  width: 29%;
+}
+
+.group-image-div {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 1.5rem;
+}
+.author {
+  text-align: right;
+  margin-bottom: 0%;
+  color: rgb(84, 83, 83);
+  font-size: .8rem;
+}
